@@ -2,9 +2,24 @@
 
 Prepare an H3 prompt and catch unsupported settings before you use the [FreeVideo AI website](https://freevideoai.app/). This package works offline and does not generate images or videos itself.
 
-## Install or run from source
+## Install from npm or run from source
 
 Requires Node.js 18+. There are no external dependencies or build step.
+
+Install the library in your Node project:
+
+```sh
+npm install freevideoai-h3-tools
+```
+
+Run the CLI with npx:
+
+```sh
+npx freevideoai-h3-tools templates
+npx freevideoai-h3-tools prompt product --subject "An unbranded perfume bottle"
+```
+
+To run the repository's sample files and tests, clone the source:
 
 ```sh
 git clone https://github.com/cydiz/freevideoai-h3-tools.git
@@ -13,13 +28,11 @@ node bin/cli.js --help
 npm test
 ```
 
-To use the library in an existing Node project, install from the public GitHub repository:
+Alternatively, install from the public GitHub repository:
 
 ```sh
 npm install github:cydiz/freevideoai-h3-tools
 ```
-
-The planned npm registry name is `freevideoai-h3-tools`. Registry publication is pending; do not assume `npm install freevideoai-h3-tools` is available yet.
 
 ## Build a product prompt
 

@@ -10,7 +10,20 @@ This is a public user-guide repository maintained for FreeVideo AI. It contains 
 
 This repository includes **freevideoai-h3-tools**, an original, dependency-free JavaScript library and CLI. Prepare prompts and validate a generation plan locally, then use the website to generate. No network calls, API keys, tracking or installation scripts are used by the tool.
 
-**npm registry publication is pending.** You can use the code from this repository now, with Node.js 18 or newer:
+Requires Node.js 18 or newer. Install the library from npm:
+
+```sh
+npm install freevideoai-h3-tools
+```
+
+Run the CLI without a global installation:
+
+```sh
+npx freevideoai-h3-tools templates
+npx freevideoai-h3-tools prompt product --subject "An unbranded perfume bottle"
+```
+
+Or clone the repository to run the included examples:
 
 ```sh
 git clone https://github.com/cydiz/freevideoai-h3-tools.git
@@ -23,7 +36,7 @@ node bin/cli.js validate video examples/video.json
 
 Copy the generated prompt into the website. Validation checks your planned settings; it does not create media, submit jobs or check your credit balance. The website's sign-in, availability and credit rules still apply.
 
-Read the [CLI and JavaScript tutorial](guides/offline-tools.md) for installation from GitHub, programmatic usage, defaults and error handling.
+Read the [CLI and JavaScript tutorial](guides/offline-tools.md) for installation, programmatic usage, defaults and error handling.
 
 ## What can you create?
 
