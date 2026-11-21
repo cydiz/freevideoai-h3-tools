@@ -1,6 +1,6 @@
 # First & Last Frame Video: Build a Controlled Transition in FreeVideo AI
 
-First & Last Frame uses two uploaded images to guide a video's beginning and ending. Use it when you have a clear before-and-after composition, such as a product photographed under two lighting setups. Each generation costs 8 credits and produces a silent MP4.
+First & Last Frame uses two uploaded images to guide a video's beginning and ending. Use it for a clear before-and-after composition, such as a product photographed under two lighting setups. In H3 Standard it costs 8 credits per task and exports an MP4. Cloud quotes vary by model, resolution and duration and require eligible purchased credits.
 
 [Open First & Last Frame](https://freevideoai.app/ai-video-generator?mode=first-last-frame)
 
@@ -20,7 +20,7 @@ Very different objects or camera viewpoints can lead to warping or unexpected in
 
 Use PNG, JPEG or WebP, with each file no larger than 10 MB. Keep the subject's scale and placement similar. For video output, choose 16:9 or 9:16; prepare both images close to that orientation.
 
-If you made the images in H3 Image, download them first. Uploading the downloaded files into the video tool is a separate manual step.
+Use two images you have permission to upload. H3 Image remains in Preview and public image generation is closed.
 
 ## Generate the transition
 
@@ -63,11 +63,11 @@ No. The images guide a generative workflow. It is not a guarantee that every pix
 This mode uses two still images. It is not a public video-to-video editing control.
 
 **Will the result include sound?**  
-No. Add sound or captions after downloading the silent MP4.
+H3 Standard exports a silent MP4 when gifted credits fund any part of the task. Standard tasks funded entirely with eligible purchased credits can retain native audio. Cloud audio options depend on the selected model.
 
 See the website's [First & Last Frame guide](https://freevideoai.app/first-last-frame-guide) and [FAQ](https://freevideoai.app/faq) for current product details.
 
 ---
 
-Last reviewed: November 13, 2026. Example prompts are illustrative; results vary. [Back to the tutorial index](../README.md).
+Last reviewed November 21, 2026. Example prompts illustrate a starting point. [Back to the tutorial index](../README.md).
 

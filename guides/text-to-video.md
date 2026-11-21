@@ -1,6 +1,6 @@
 # Text to Video with FreeVideo AI: Write Better Single-Shot Prompts
 
-Use Text to Video when you have a scene idea but no starting image. FreeVideo AI uses a MiniMax H3-based workflow to generate a short, silent MP4 from your description. Each Text to Video generation costs 6 credits.
+Use Text to Video when you have a scene idea without a starting image. FreeVideo AI's H3 Standard workflow uses MiniMax H3 to create a short MP4 from your description at 6 credits per task. Cloud quotes vary by model, resolution and duration and require eligible purchased credits.
 
 [Open Text to Video](https://freevideoai.app/ai-video-generator?mode=text-to-video)
 
@@ -61,11 +61,11 @@ Choose a longer duration when a simple movement needs more time, such as a gentl
 
 ## What this workflow does not do
 
-The public output is silent MP4. It does not add music, voice-over or lip synchronization. Exact brand lettering, stable small details and complex physical interactions can be unreliable. Inspect the downloaded result before using it in a product listing or campaign.
+H3 Standard exports a silent MP4 if gifted credits fund any part of the task. Standard tasks funded entirely with eligible purchased credits can retain native audio. Exact brand lettering, stable small details and complex physical interactions can be unreliable. Inspect the downloaded result before using it in a product listing or campaign.
 
 For current controls and limitations, see [Text to Video](https://freevideoai.app/text-to-video), [FAQ](https://freevideoai.app/faq) and [Product transparency](https://freevideoai.app/product-transparency).
 
 ---
 
-Last reviewed: November 13, 2026. Example prompts are illustrative; results vary. [Back to the tutorial index](../README.md).
+Last reviewed November 21, 2026. Example prompts illustrate a starting point. [Back to the tutorial index](../README.md).
 

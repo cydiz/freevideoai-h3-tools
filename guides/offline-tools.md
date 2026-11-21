@@ -1,6 +1,6 @@
 # FreeVideo AI H3 Tools: CLI & JavaScript Tutorial
 
-Prepare an H3 prompt and catch unsupported settings before you use the [FreeVideo AI website](https://freevideoai.app/). This package works offline and does not generate images or videos itself.
+Prepare prompts and check parameter syntax offline with this package. Use the official [FreeVideo AI website](https://freevideoai.app/) for browser-based video generation.
 
 ## Install from npm or run from source
 
@@ -62,7 +62,7 @@ node bin/cli.js validate image image.json
 
 Valid output contains `ok: true` and normalized `value`. Invalid output contains `ok: false` and an `errors` array with field names and explanations.
 
-Image defaults are 1:1, 1K and PNG. Supported ratios are 1:1, 16:9, 9:16, 4:3 and 3:4; area levels are 1K and 2K; formats are jpeg, png and webp. These are package defaults for planning, not a claim about the website's initial selections. Area levels are not fixed pixel dimensions, and PNG does not imply transparency.
+Image defaults in this package are 1:1, 1K and PNG. The offline validator accepts 1:1, 16:9, 9:16, 4:3 and 3:4, the 1K and 2K area levels, and the `jpeg`, `png` and `webp` format values. These fields describe an offline plan. See [H3 Image Preview](https://freevideoai.app/ai-image-generator) for the current website status.
 
 ## Validate a video plan
 
@@ -76,11 +76,11 @@ Image defaults are 1:1, 1K and PNG. Supported ratios are 1:1, 16:9, 9:16, 4:3 an
 }
 ```
 
-Video supports numeric durations 5, 10 and 15, and ratios 16:9 and 9:16. Text to Video needs zero references, Image to Video one, and First & Last Frame two. `referenceCount` is a planning field, not a generation API parameter. The validator does not open or validate image files.
+For a Standard video plan, the validator accepts numeric durations 5, 10 and 15, and ratios 16:9 and 9:16. Text to Video needs zero references, Image to Video one, and First & Last Frame two. `referenceCount` records the planned number of source images. Choose Cloud settings and review the actual quote on the website.
 
 Video defaults are text-to-video, 5 seconds, 16:9 and zero references. Unknown keys are rejected to catch misspellings or unsupported capabilities.
 
-Both prompt limits are 2,000 after trimming. To match the current website checks, images count Unicode code points while video counts UTF-16 code units; some emoji count as two video units. The package checks syntax and current supported choices, not prompt quality or content suitability.
+The offline validators use a 2,000-character limit after trimming. Images count Unicode code points and video counts UTF-16 code units, so some emoji count as two video units. Validation checks the settings accepted by this package.
 
 ## Use JavaScript
 
@@ -90,10 +90,12 @@ import {
   listTemplates,
   validateImageOptions,
   validateVideoOptions,
-} from 'freevideoai-h3-tools';
+} from "freevideoai-h3-tools";
 
-const prompt = createPrompt('product', { subject: 'An unbranded perfume bottle' });
-const result = validateImageOptions({ prompt, aspectRatio: '4:3' });
+const prompt = createPrompt("product", {
+  subject: "An unbranded perfume bottle",
+});
+const result = validateImageOptions({ prompt, aspectRatio: "4:3" });
 if (result.ok) {
   console.log(result.value);
 } else {
@@ -101,7 +103,9 @@ if (result.ok) {
 }
 
 console.log(listTemplates());
-console.log(validateVideoOptions({ prompt: 'A cup with rising steam.', duration: 5 }));
+console.log(
+  validateVideoOptions({ prompt: "A cup with rising steam.", duration: 5 }),
+);
 ```
 
 When running directly inside a cloned repository, import from `./index.js` instead. TypeScript declarations are included. `createPrompt` throws `TypeError` for unknown templates or invalid overrides; validators return a result object for ordinary JSON inputs.
@@ -110,10 +114,10 @@ When running directly inside a cloned repository, import from `./index.js` inste
 
 Use `-` as the file argument to read JSON from standard input. Validation writes JSON to stdout. Exit codes: 0 valid, 1 invalid configuration, 2 malformed JSON, file errors or command errors. Diagnostics for command/file errors go to stderr. Prompts are read only from arguments or the file/stdin you explicitly provide.
 
-## Generate on the website
+## Use a video prompt on the website
 
-After validation, open [H3 Image](https://freevideoai.app/ai-image-generator) or the [video generator](https://freevideoai.app/ai-video-generator), sign in, paste the prompt and choose the matching settings manually. The CLI does not transfer settings automatically or bypass credits.
+After validating a video plan, open [Video Studio](https://freevideoai.app/ai-video-generator), sign in, paste the prompt and select the settings in the browser. The image example is for offline planning while H3 Image remains in Preview and public generation is closed.
 
-H3 Image currently has a 0-credit introductory offer with usage limits. Eligible new Google accounts receive 60 video welcome credits, valid for 30 days. Review [Pricing](https://freevideoai.app/pricing) and [FAQ](https://freevideoai.app/faq) for current terms.
+Eligible new Google accounts receive 20 one-time welcome credits, valid for 30 days. They apply to H3 Standard. Cloud quotes are based on model, resolution and duration, and require eligible purchased credits. Review [Pricing](https://freevideoai.app/pricing) and [FAQ](https://freevideoai.app/faq) for current terms.
 
-Last reviewed: November 13, 2026. [Back to README](../README.md).
+Last reviewed November 21, 2026. [Back to README](../README.md).
