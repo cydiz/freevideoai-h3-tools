@@ -63,7 +63,7 @@ No. The images guide a generative workflow. It is not a guarantee that every pix
 This mode uses two still images. It is not a public video-to-video editing control.
 
 **Will the result include sound?**  
-H3 Standard exports a silent MP4 when gifted credits fund any part of the task. Standard tasks funded entirely with eligible purchased credits can retain native audio. Cloud audio options depend on the selected model.
+H3 Standard MP4s retain model-generated audio, including when using welcome credits. Cloud audio options depend on the selected model.
 
 See the website's [First & Last Frame guide](https://freevideoai.app/first-last-frame-guide) and [FAQ](https://freevideoai.app/faq) for current product details.
 

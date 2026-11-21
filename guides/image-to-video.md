@@ -1,6 +1,6 @@
 # Image to Video with FreeVideo AI: Animate a Product Photo or Portrait
 
-Image to Video starts from a still image and uses a written prompt to guide movement. Try it for a product reveal, a portrait animation or a small camera move across an illustration. In H3 Standard it costs 8 credits per task and exports an MP4. Standard removes the audio track when the task uses any gifted credits. Cloud quotes vary by model, resolution and duration and require eligible purchased credits.
+Image to Video starts from a still image and uses a written prompt to guide movement. Try it for a product reveal, a portrait animation or a small camera move across an illustration. In H3 Standard it costs 8 credits per task and exports an MP4. H3 Standard MP4s retain model-generated audio, including when using welcome credits. Cloud quotes vary by model, resolution and duration and require eligible purchased credits.
 
 [Open Image to Video](https://freevideoai.app/ai-video-generator?mode=image-to-video)
 

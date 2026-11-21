@@ -61,7 +61,7 @@ Choose a longer duration when a simple movement needs more time, such as a gentl
 
 ## What this workflow does not do
 
-H3 Standard exports a silent MP4 if gifted credits fund any part of the task. Standard tasks funded entirely with eligible purchased credits can retain native audio. Exact brand lettering, stable small details and complex physical interactions can be unreliable. Inspect the downloaded result before using it in a product listing or campaign.
+H3 Standard MP4s retain model-generated audio, including when using welcome credits. Exact brand lettering, stable small details and complex physical interactions can be unreliable. Inspect the downloaded result before using it in a product listing or campaign.
 
 For current controls and limitations, see [Text to Video](https://freevideoai.app/text-to-video), [FAQ](https://freevideoai.app/faq) and [Product transparency](https://freevideoai.app/product-transparency).
 

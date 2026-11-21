@@ -94,7 +94,7 @@ H3 Standard offers 5-, 10-, or 15-second MP4 clips in landscape 16:9 or portrait
 
 **Do I need to install a model or supply an API key?** No for the website: sign in and use the browser interface. This repository does not provide a public generation API or local model installer.
 
-**Why is my video silent?** H3 Standard removes the audio track whenever gifted credits fund any part of the task. A Standard task funded entirely by eligible purchased credits can retain native audio. Cloud audio options depend on the model.
+**Does Standard include native audio?** H3 Standard MP4s retain model-generated audio, including when using welcome credits. Cloud audio options depend on the model.
 
 **Why does a task remain queued or show a result check?** Queue time varies, and the service may still be reconciling a result. Wait for a final status before submitting a duplicate task.
 

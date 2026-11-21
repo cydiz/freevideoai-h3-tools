@@ -39,7 +39,7 @@ The prompt gives the model one subject, one visible action and one camera moveme
 
 Watch the full clip once for the subject, once for movement and once for unwanted changes. If the camera moves too much, revise only the camera instruction. If the background distracts, simplify the setting. Changing one variable makes comparisons easier.
 
-H3 Standard exports a **silent MP4** whenever gifted credits fund any part of the task. A Standard task funded entirely by eligible purchased credits can retain native audio. Cloud audio support depends on the model.
+H3 Standard MP4s retain model-generated audio, including when using welcome credits. Cloud audio support depends on the model.
 
 ## Settings to know
 
@@ -52,7 +52,7 @@ H3 Standard offers 5, 10 or 15 seconds and landscape 16:9 or portrait 9:16. Its 
 - **Queued or generating:** allow the active task to finish; avoid repeatedly submitting the same prompt.
 - **Checking the result:** the service may still be reconciling the task. Review its final status before retrying.
 - **History is missing:** check that you are using the same account, then refresh the history.
-- **No sound:** check whether gifted credits funded the Standard task and whether the selected model supports native audio.
+- **No sound:** check the player volume and the audio in the downloaded file. Older clips may have been exported without an audio track.
 - **Unexpected output:** simplify the request; generation is not an exact simulation or guaranteed reproduction.
 
 Continue with the [video prompt guide](https://freevideoai.app/ai-video-prompt-guide) or read the [product FAQ](https://freevideoai.app/faq).
