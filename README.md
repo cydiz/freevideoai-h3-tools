@@ -46,7 +46,7 @@ Read the [CLI and JavaScript tutorial](guides/offline-tools.md) for installation
 | One photo or illustration | Image to Video     | 8 credits per generation |
 | Two endpoint images       | First & Last Frame | 8 credits per generation |
 
-Eligible new Google accounts receive **20 one-time welcome credits**, valid for **30 days**. At H3 Standard rates, 20 credits cover up to three Text to Video tasks with two credits left, or two Image to Video or First & Last Frame tasks with four credits left.
+Eligible new Google accounts receive **60 one-time welcome credits**, valid for **30 days**. At H3 Standard rates, 60 credits cover up to ten Text to Video tasks with no credits left, or seven Image to Video or First & Last Frame tasks with four credits left.
 
 Cloud uses dynamic pricing by model, resolution and duration. The studio shows the quote before submission. Cloud requires eligible purchased credits. Welcome credits apply to H3 Standard only. The [Pricing page](https://freevideoai.app/pricing) lists credit packs and monthly and annual plans. Annual plans save 30% compared with 12 monthly payments.
 

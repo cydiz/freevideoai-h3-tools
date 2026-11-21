@@ -14,9 +14,9 @@ Open the [video generator](https://freevideoai.app/ai-video-generator). Sign in 
 
 ## 2. Check credits before starting
 
-In H3 Standard, Text to Video costs 6 credits per generation. Image to Video and First & Last Frame cost 8 credits each. Eligible new Google accounts receive a one-time grant of 20 welcome credits, valid for 30 days.
+In H3 Standard, Text to Video costs 6 credits per generation. Image to Video and First & Last Frame cost 8 credits each. Eligible new Google accounts receive a one-time grant of 60 welcome credits, valid for 30 days.
 
-With the full 20 credits, you can submit three Text to Video tasks and have two credits left, or two Image to Video or First & Last Frame tasks and have four credits left.
+With the full 60 credits, you can submit ten Text to Video tasks and use all 60 credits, or seven Image to Video or First & Last Frame tasks and have four credits left.
 
 Cloud quotes depend on the model, resolution and duration. Check the exact quote before submitting. Cloud accepts eligible purchased credits only. See [Pricing](https://freevideoai.app/pricing) for one-time packs and subscriptions. Annual plans save 30% compared with 12 monthly payments.
 

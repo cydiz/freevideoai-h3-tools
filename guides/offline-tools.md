@@ -118,6 +118,6 @@ Use `-` as the file argument to read JSON from standard input. Validation writes
 
 After validating a video plan, open [Video Studio](https://freevideoai.app/ai-video-generator), sign in, paste the prompt and select the settings in the browser. The image example is for offline planning while H3 Image remains in Preview and public generation is closed.
 
-Eligible new Google accounts receive 20 one-time welcome credits, valid for 30 days. They apply to H3 Standard. Cloud quotes are based on model, resolution and duration, and require eligible purchased credits. Review [Pricing](https://freevideoai.app/pricing) and [FAQ](https://freevideoai.app/faq) for current terms.
+Eligible new Google accounts receive 60 one-time welcome credits, valid for 30 days. They apply to H3 Standard. Cloud quotes are based on model, resolution and duration, and require eligible purchased credits. Review [Pricing](https://freevideoai.app/pricing) and [FAQ](https://freevideoai.app/faq) for current terms.
 
 Last reviewed November 21, 2026. [Back to README](../README.md).

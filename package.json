@@ -1,6 +1,6 @@
 {
   "name": "freevideoai-h3-tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Offline prompt templates and parameter validation with guides for the FreeVideo AI video studio at freevideoai.app.",
   "type": "module",
   "exports": {
