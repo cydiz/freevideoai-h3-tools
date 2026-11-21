@@ -20,7 +20,7 @@ Very different objects or camera viewpoints can lead to warping or unexpected in
 
 Use PNG, JPEG or WebP, with each file no larger than 10 MB. Keep the subject's scale and placement similar. For video output, choose 16:9 or 9:16; prepare both images close to that orientation.
 
-Use two images you have permission to upload. H3 Image remains in Preview and public image generation is closed.
+Use two images you have permission to upload. You can also generate a reference in H3 Image for 3 credits.
 
 ## Generate the transition
 

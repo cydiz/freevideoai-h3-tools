@@ -45,7 +45,7 @@ H3 Standard MP4s retain model-generated audio, including when using welcome cred
 
 H3 Standard offers 5, 10 or 15 seconds and landscape 16:9 or portrait 9:16. Its workflow determines the output resolution. Start with a short test to establish the look.
 
-[H3 Image](https://freevideoai.app/ai-image-generator) is in Preview and public generation is closed. Choose the video aspect ratio independently in Video Studio.
+[H3 Image](https://freevideoai.app/ai-image-generator) costs 3 credits per generated image. Choose the video aspect ratio independently in Video Studio.
 
 ## If something looks stuck
 

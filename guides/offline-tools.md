@@ -62,7 +62,7 @@ node bin/cli.js validate image image.json
 
 Valid output contains `ok: true` and normalized `value`. Invalid output contains `ok: false` and an `errors` array with field names and explanations.
 
-Image defaults in this package are 1:1, 1K and PNG. The offline validator accepts 1:1, 16:9, 9:16, 4:3 and 3:4, the 1K and 2K area levels, and the `jpeg`, `png` and `webp` format values. These fields describe an offline plan. See [H3 Image Preview](https://freevideoai.app/ai-image-generator) for the current website status.
+Image defaults in this package are 1:1, 1K and PNG. The offline validator accepts 1:1, 16:9, 9:16, 4:3 and 3:4, the 1K and 2K area levels, and the `jpeg`, `png` and `webp` format values. These fields describe an offline plan. See [H3 Image Studio](https://freevideoai.app/ai-image-generator) for the current website status.
 
 ## Validate a video plan
 
@@ -116,8 +116,8 @@ Use `-` as the file argument to read JSON from standard input. Validation writes
 
 ## Use a video prompt on the website
 
-After validating a video plan, open [Video Studio](https://freevideoai.app/ai-video-generator), sign in, paste the prompt and select the settings in the browser. The image example is for offline planning while H3 Image remains in Preview and public generation is closed.
+After validating a video plan, open [Video Studio](https://freevideoai.app/ai-video-generator), sign in, paste the prompt and select the settings in the browser. To generate a still, take the validated prompt to Image Studio. Each image costs 3 credits.
 
-Eligible new Google accounts receive 60 one-time welcome credits, valid for 30 days. They apply to H3 Standard. Cloud quotes are based on model, resolution and duration, and require eligible purchased credits. Review [Pricing](https://freevideoai.app/pricing) and [FAQ](https://freevideoai.app/faq) for current terms.
+Eligible new Google accounts receive 60 one-time welcome credits, valid for 30 days. They apply to H3 Standard video and H3 Image. Cloud quotes are based on model, resolution and duration, and require eligible purchased credits. Review [Pricing](https://freevideoai.app/pricing) and [FAQ](https://freevideoai.app/faq) for current terms.
 
 Last reviewed November 21, 2026. [Back to README](../README.md).

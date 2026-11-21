@@ -2,7 +2,7 @@
 
 **FreeVideo AI** is a browser-based AI video generation platform. Its official website is [freevideoai.app](https://freevideoai.app/). The online studio creates short videos from a prompt, a photo, or first and last frames.
 
-[Video Studio](https://freevideoai.app/ai-video-generator) · [Pricing](https://freevideoai.app/pricing) · [Product Transparency](https://freevideoai.app/product-transparency) · [H3 Image Preview](https://freevideoai.app/ai-image-generator)
+[Video Studio](https://freevideoai.app/ai-video-generator) · [Pricing](https://freevideoai.app/pricing) · [Product Transparency](https://freevideoai.app/product-transparency) · [H3 Image Studio](https://freevideoai.app/ai-image-generator)
 
 This repository contains FreeVideo AI's offline prompt tools and tutorials. FreeVideo AI hosts the online studio, and MiniMax H3 is a model used in its video workflows. Cloud tasks may be processed by third-party generation services. See [Product Transparency](https://freevideoai.app/product-transparency) for workflow and data-handling details. The repository's MIT license covers the offline package and its accompanying materials.
 
@@ -34,7 +34,7 @@ node bin/cli.js validate image examples/image.json
 node bin/cli.js validate video examples/video.json
 ```
 
-Copy a video prompt into the website when you are ready to generate. The two example files above are offline validation fixtures. A valid image configuration is suitable for planning while H3 Image remains in Preview and public generation is closed.
+Copy a video prompt into the website when you are ready to generate. The two example files above are offline validation fixtures. Take the validated image prompt to Image Studio to generate a still for 3 credits.
 
 Read the [CLI and JavaScript tutorial](guides/offline-tools.md) for installation, programmatic usage, defaults and error handling.
 
@@ -48,7 +48,7 @@ Read the [CLI and JavaScript tutorial](guides/offline-tools.md) for installation
 
 Eligible new Google accounts receive **60 one-time welcome credits**, valid for **30 days**. At H3 Standard rates, 60 credits cover up to ten Text to Video tasks with no credits left, or seven Image to Video or First & Last Frame tasks with four credits left.
 
-Cloud uses dynamic pricing by model, resolution and duration. The studio shows the quote before submission. Cloud requires eligible purchased credits. Welcome credits apply to H3 Standard only. The [Pricing page](https://freevideoai.app/pricing) lists credit packs and monthly and annual plans. Annual plans save 30% compared with 12 monthly payments.
+Cloud uses dynamic pricing by model, resolution and duration. The studio shows the quote before submission. Cloud requires eligible purchased credits. Welcome credits can also fund H3 Image at 3 credits per image. The [Pricing page](https://freevideoai.app/pricing) lists credit packs and monthly and annual plans. Annual plans save 30% compared with 12 monthly payments.
 
 ## Make your first video
 
@@ -72,11 +72,11 @@ Start with one subject, one action and one camera move. Review the result, then 
 | [Text to Video](guides/text-to-video.md)              | Write single-shot prompts and troubleshoot motion                                            |
 | [Image to Video](guides/image-to-video.md)            | Prepare a product photo or portrait and guide subtle movement                                |
 | [First & Last Frame](guides/first-last-frame.md)      | Select compatible images and build a transition                                              |
-| [Product-image concepts](guides/h3-product-images.md) | Draft product prompts while H3 Image is in Preview and use an existing photo in Video Studio |
+| [Product-image concepts](guides/h3-product-images.md) | Plan an image in Image Studio or animate an existing photo in Video Studio |
 
 ## Plan a product-image concept
 
-[H3 Image](https://freevideoai.app/ai-image-generator) is in **Preview**. Public image generation is currently closed. Use the offline toolkit to prepare a prompt for a tall product poster or a wider product card.
+[H3 Image](https://freevideoai.app/ai-image-generator) is available to signed-in users at 3 credits per image. Use the offline toolkit to prepare a prompt for a tall product poster or a wider product card.
 
 ```text
 An unbranded skincare serum bottle with clear glass, an ivory inner container, a white pump and brushed gold accents. The bottle floats at a slight diagonal above a glossy black pedestal. Suspended water droplets, a charcoal studio background, warm rim lighting and realistic reflections. One bottle, no lettering or logos.
@@ -90,7 +90,7 @@ H3 Standard offers 5-, 10-, or 15-second MP4 clips in landscape 16:9 or portrait
 
 ## Common questions
 
-**Can I start for free?** The one-time welcome grant lets eligible new Google accounts try H3 Standard. H3 Image is in Preview and public image generation is closed.
+**Can I start for free?** The one-time welcome grant lets eligible new Google accounts try H3 Standard. If all 60 credits go toward H3 Image, they cover 20 images at 3 credits each.
 
 **Do I need to install a model or supply an API key?** No for the website: sign in and use the browser interface. This repository does not provide a public generation API or local model installer.
 

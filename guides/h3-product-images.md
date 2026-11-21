@@ -1,8 +1,8 @@
-# Plan Product-Style Images While H3 Image Is in Preview
+# Plan a Product Image in H3 Image Studio
 
-H3 Image is in Preview on [FreeVideo AI](https://freevideoai.app/). Public image generation is currently closed. You can prepare a product concept offline or animate a photograph you already have in Video Studio.
+Sign in to [FreeVideo AI](https://freevideoai.app/ai-image-generator) to generate an image for 3 credits. You can prepare a product concept offline or animate a photograph you already have in Video Studio.
 
-[Open H3 Image Preview](https://freevideoai.app/ai-image-generator)
+[Open H3 Image Studio](https://freevideoai.app/ai-image-generator)
 
 ## Plan the composition
 
