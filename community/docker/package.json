@@ -1,0 +1,53 @@
+{
+  "name": "freevideoai-h3-tools",
+  "version": "0.1.2",
+  "description": "Offline prompt templates and parameter validation with guides for the FreeVideo AI video studio at freevideoai.app.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "bin": {
+    "freevideoai-h3": "./bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "bin/",
+    "guides/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "freevideoai",
+    "h3",
+    "ai-video",
+    "prompt-templates",
+    "parameter-validation",
+    "text-to-video",
+    "product-images"
+  ],
+  "homepage": "https://freevideoai.app/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cydiz/freevideoai-h3-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cydiz/freevideoai-h3-tools/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

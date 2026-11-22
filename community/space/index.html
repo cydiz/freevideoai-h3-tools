@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FreeVideo AI Shot Planner</title>
+<style>body{font:1rem/1.6 system-ui;background:#201f1e;color:#fff4ef;margin:clamp(16px,6vw,80px) auto;padding:0 18px;max-width:640px}label{display:block;margin-top:1em}select,input,textarea{display:block;width:100%;box-sizing:border-box;padding:.65em;font:inherit}button{font:inherit;background:#f4a77c;border:0;border-radius:8px;padding:.7em 1.3em;margin-top:1em}a{color:#ffbb94}pre{white-space:pre-wrap}</style>
+<main><h1>FreeVideo AI Shot Planner</h1><p>Prepare one shot in your browser. Enter the number of reference images you intend to use. Your photos stay on your device.</p>
+<form id="planner"><label>Video mode<select id="mode"><option value="text-to-video">Text to video</option><option value="image-to-video">Image to video</option><option value="first-last-frame">First and last frame</option></select></label>
+<label>Reference image count<input id="count" type="number" min="0" max="2" value="0" required></label>
+<label>Movement<textarea id="action" rows="2" required>A thin ribbon of steam rises slowly</textarea></label>
+<button>Check shot plan</button></form><pre id="result" role="status"></pre><a href="https://freevideoai.app/ai-video-generator">Open FreeVideo AI Studio</a></main>
+<script type="module">
+import { createPrompt, validateVideoOptions } from './index.js';
+const field = id => document.getElementById(id);
+const templates = {'text-to-video':'cinematic','image-to-video':'portrait','first-last-frame':'transition'};
+const actions = {'text-to-video':'A thin ribbon of steam rises slowly','image-to-video':'The person blinks once','first-last-frame':'The light changes gradually between frames'};
+field('mode').onchange = () => {field('action').value=actions[field('mode').value];field('result').textContent='';};
+field('planner').onsubmit = event => {
+  event.preventDefault();
+  const mode = field('mode').value;
+  try {
+    const prompt = createPrompt(templates[mode], { action:field('action').value });
+    const check = validateVideoOptions({mode,prompt,referenceCount:Number(field('count').value)});
+    field('result').textContent = check.ok ? prompt : check.errors.map(e=>e.message).join('\n');
+  } catch(error) {field('result').textContent = error.message;}
+};
+</script></html>
