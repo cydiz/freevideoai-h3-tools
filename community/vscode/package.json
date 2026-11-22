@@ -4,11 +4,27 @@
   "description": "Check a video shot plan in the active JSON document, including reference counts, prompt and framing.",
   "version": "0.1.0",
   "license": "MIT",
-  "engines": { "vscode": "^1.85.0" },
-  "categories": ["Other"],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
   "homepage": "https://freevideoai.app/",
   "main": "./extension.cjs",
   "contributes": {
-    "commands": [{"command":"freevideoai.checkShotPlan","title":"FreeVideo AI: Validate Video Shot Plan","enablement":"editorLangId == json"}]
+    "commands": [
+      {
+        "command": "freevideoai.checkShotPlan",
+        "title": "FreeVideo AI: Validate Video Shot Plan",
+        "enablement": "editorLangId == json"
+      }
+    ]
+  },
+  "publisher": "freevideoai-app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cydiz/freevideoai-h3-tools.git",
+    "directory": "community/vscode"
   }
 }
